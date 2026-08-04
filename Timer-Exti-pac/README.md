@@ -18,3 +18,8 @@ This is a driver controlling PA0 (LED) blink speed via PC0 (EXTI0 button interru
 ### Key Features
 * **Non-blocking:** Reloads `CNT` directly without blocking loop delays.
 * **Thread-safe:** Atomic flags (`AtomicBool`, `AtomicU8`) share state cleanly between ISRs and main.
+
+### Demonstration
+
+*Link to visuals:-*
+[![Hardware Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/shorts/ldYUNu_fLc8)
