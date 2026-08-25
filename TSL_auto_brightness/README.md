@@ -2,7 +2,7 @@
 
 This driver demonstrates non-blocking ambient light sensor (TSL2561) data acquisition using I2C with DMA, processed via an Exponential Moving Average (EMA) filter to drive smooth LED PWM auto-brightness.
 
-Uses **I2C1 (SCL, SDA)** and **TIM2 PWM Output (LED)** mapped as Alternate Functions.
+Uses I2C1 and TIM2 PWM Output (LED) mapped as Alternate Functions.
 
 ## I2C Timing Calculations (Standard-Mode 100 kHz @ 4 MHz Clock)
 
